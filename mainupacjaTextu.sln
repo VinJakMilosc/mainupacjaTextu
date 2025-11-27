@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mainupacjaTextu", "mainupacjaTextu\mainupacjaTextu.csproj", "{B7AEA449-655A-4141-8C13-1E647061E7CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7AEA449-655A-4141-8C13-1E647061E7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7AEA449-655A-4141-8C13-1E647061E7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7AEA449-655A-4141-8C13-1E647061E7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7AEA449-655A-4141-8C13-1E647061E7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {564EC31A-7C58-49B2-B1D0-D1C3FC5DA09A}
+	EndGlobalSection
+EndGlobal
