@@ -42,7 +42,7 @@
             Console.WriteLine(ilosc);
             Console.WriteLine(poczatek);
             Console.WriteLine(koniec);
-             
+
             Console.WriteLine("");
             Console.WriteLine("Podaj wyraz");
             string wyraz = Console.ReadLine();
@@ -70,8 +70,49 @@
             string zastamp = slowa.Replace(" ", znak1);
 
             Console.WriteLine(zastamp);
-            Console.ReadLine();
 
+            Console.WriteLine("");
+            Console.WriteLine("wpisz text");
+            string text = Console.ReadLine();
+
+            for (int i = text.Length - 1; i >= 0; i--)
+            {
+                Console.Write(text[i]);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Wpisz słowo (lub zdania) a sprawdze czy topalindrom");
+            string palindrom = Console.ReadLine();
+            bool czyPalindrom = true;
+
+            for (int i = (palindrom.Length - 1) / 2; i >= 0; i--)
+            {
+                if (palindrom[i] != palindrom[palindrom.Length - 1 - i])
+                {
+                    czyPalindrom = false;
+                    break;
+                }
+            }
+
+            if (czyPalindrom)
+            {
+                Console.WriteLine(palindrom + " jest palindromem");
+            }
+            else
+            {
+                Console.WriteLine("To nie bedzie palindrom");
+
+            }
+            Console.WriteLine();
+            Console.WriteLine("Wpisz słowa a ja ci policze");
+            string podaneSlowa = Console.ReadLine();
+            string[] ileSlowa = podaneSlowa.Split(" ");
+
+            
+
+
+            Console.WriteLine();
+            Console.WriteLine("ilośc słów to: " + ileSlowa.Length);
 
         }
     }
