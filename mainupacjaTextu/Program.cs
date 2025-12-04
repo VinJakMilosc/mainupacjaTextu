@@ -108,11 +108,33 @@
             string podaneSlowa = Console.ReadLine();
             string[] ileSlowa = podaneSlowa.Split(" ");
 
-            
+
 
 
             Console.WriteLine();
             Console.WriteLine("ilośc słów to: " + ileSlowa.Length);
+
+            //Console.WriteLine();
+            //Console.WriteLine("Wpisz zdanie a ja dam ci akronimy");
+            //string akronim = Console.ReadLine();
+
+            //for (int i = 0; i < akronim.Length; i++)
+            //{
+            //    string duzeLitery = akronim[i].Split();
+            //}
+
+            Console.WriteLine();
+            Console.WriteLine("Podaj swój emial:");
+            string email = Console.ReadLine();
+
+            int index = email.IndexOf("@");
+            if (index != -1)
+            {
+                string skrocony = email.Substring(index + 1);
+                Console.WriteLine(skrocony);
+            }
+
+            
 
         }
     }
